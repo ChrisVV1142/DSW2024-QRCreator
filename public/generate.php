@@ -44,6 +44,6 @@ $result = Builder::create()
 <body>
   <h1>Código QR Generado</h1>
   <p><img src="<?= $result->getDataUri() ?>" alt="codigo QR generado"></p>
-  <p></p>
+  <p><img src="img/<?= $imgName.'.png' ?>" alt="codigo QR generado"></p>
 </body>
 </html>
